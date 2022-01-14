@@ -36,7 +36,6 @@ namespace BaigiamasisVCSDarbas.Drivers
                 default:
                     webDriver = new ChromeDriver();
                     break;
-
             }
 
             webDriver.Manage().Window.Maximize();

@@ -20,8 +20,6 @@ namespace BaigiamasisVCSDarbas.Page
         private IWebElement _addToCart => Driver.FindElement(By.CssSelector("#product-96 > div > div.product-main > div > div.product-info.summary.col-fit.col.entry-summary.product-summary.text-center > form > div > div.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled > button"));
         private IWebElement _priceAmountCheck => Driver.FindElement(By.CssSelector("#masthead > div.header-inner.flex-row.container.logo-left.medium-logo-center > div.flex-col.hide-for-medium.flex-right > ul > li.cart-item.has-icon.has-dropdown > a > span.header-cart-title > span > span"));
 
-        public object ExpectedConditions { get; private set; }
-
         public AddToCartBbPage(IWebDriver webdriver) : base(webdriver) { }
 
         public AddToCartBbPage NavigateToDefaultPage()

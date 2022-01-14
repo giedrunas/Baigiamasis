@@ -23,6 +23,5 @@ namespace BaigiamasisVCSDarbas.Page
 
             return wait;
         }
-
     }
 }
